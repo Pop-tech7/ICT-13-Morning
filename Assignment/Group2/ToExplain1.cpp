@@ -12,7 +12,7 @@ void processSalaryArray(int salary[], int size) {
     }
     cout << endl;
     
-    // 2. Find maximum salary
+    // 2. Find minimum salary
     int max = salary[0];
     for(int i = 1; i < size; i++) {
         if(salary[i] < max) {
